@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My fitness</title>
+</head>
+<style>
+    body{
+        background-image: url(https://wallpapercave.com/wp/wp5199469.jpg);
+        background-color: antiquewhite;
+        
+        
+    }
+    .left{
+         color: azure;
+         position: absolute;
+         left: 20px;
+         top: 10px;
+         border: 2px;
+         font-size: 40px;
+         font-weight: 900;
+         font-style: italic;
+         text-align: center;
+    }
+    .right{
+        color: azure;
+        position: absolute;
+         right: 20px;
+         top: 10px;
+         border: 2px ;
+    }
+    .mid{
+        color: azure;
+        position: absolute;
+         right: 150px;
+         left: 500px;  
+         display: inline-block;
+         font-size: 20px;
+        font-style: italic;
+        font-weight:900;
+    }
+    
+   
+     .topnav a{
+        margin:10px;
+        color: lightgrey;
+     }
+     .topnav a:hover, .topnav a:active{
+        text-decoration:overline;
+        color: grey;
+     }
+     .left img{
+        width: 150px;
+        
+     }
+     .left b{
+        text-align: center;
+     }
+
+     .btn{
+      margin: 12px;
+        background-color: rgba(0, 0, 0, 0.253);
+        color: white;
+        border-radius: 10px;
+        font-size: 18px;
+        font-weight: 900;
+        font-style: italic;
+      cursor:pointer;
+     }
+     .btn :hover, .btn:active{
+        text-decoration:underline;
+        color: grey;
+     }
+    
+     .container{
+        border: 2px ;
+        color: azure;
+       margin-top: 180px;
+        position: absolute;
+        margin-left: 30px;
+        border-radius: 10px;
+        padding: 20px;
+         
+     }
+     
+     .form-group{
+        font-size: 25px;
+       
+     }
+     .container h1{
+        font-size: 40px;
+        font-style: oblique;
+     }
+</style>
+<body>
+    <header class="header">
+        <div class="left"> 
+          
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2uz9Oa1uyEcAhRrUXt4K7Se_oVEhWYNqD0y6eV1zcfQ&usqp=CAU&ec=48600112" >  
+      <br>
+      <b>Fitness Club</b>
+        </div>
+        <div class="mid">
+            <div class="topnav">
+                <a href="#home">Home</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about" class="split">Help</a>
+              </div>
+  
+        </div>
+        <div class="right">
+       <button class="btn">Contact Now</button>
+       <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+    <h1>Join the best gym of DELHI</h1>
+<form>
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter your name">
+        <br>
+
+        <input type="number" name="" placeholder="Enter your age">
+        <br>
+        <input type="text" name="" placeholder="Enter your city name">
+        <br>
+        <input type="number" name="" placeholder="Enter your current weight ">
+        
+    </div>
+    <button class="btn">Sumbit now</button>
+</form>
+    </div>
+      
+</body>
+</html>
